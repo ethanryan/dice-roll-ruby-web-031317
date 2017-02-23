@@ -7,6 +7,11 @@ def roll #this method takes no argument
   rand(1..6) #return a random number between 1 and 6 (a range)
 end #end method
 
+#method returns random number ranging from 1 to 7, excluding 7:
+# def roll #this method takes no argument
+#   rand(1...7) #return a random number between 1 and 7, excluding 7 (a range)
+# end #end method
+
 #method returns random number using a random number (ranging from 0 to 6, plus 1):
 # def roll #this method takes no argument
 #   rand(6) + 1 #return a random number between 0 and 6, plus 1 (so the returned number is never 0)
